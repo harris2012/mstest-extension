@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="de4c293f-b327-4bb9-a91a-6825e822a3c1" name="hc_zhang@DST60530 2018-05-25 17:47:47" runUser="CN1\hc_zhang" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="默认测试设置" id="ac119023-57dd-40bb-a3d6-8f1de9a2eb3a">
+    <Deployment userDeploymentRoot="D:\CodingWorkspace\TestTrx001\TextTrx001.Test\bin\Debug" useDefaultDeploymentRoot="false" runDeploymentRoot="hc_zhang_DST60530 2018-05-25 17_47_47" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2018-05-25T17:47:47.4346692+08:00" queuing="2018-05-25T17:47:47.8567612+08:00" start="2018-05-25T17:47:47.9523292+08:00" finish="2018-05-25T17:47:48.4012997+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestSayNo" storage="texttrx001.test.dll" id="10766132-3116-8d33-a870-9f77e014c374">
+      <Execution id="3bdac686-c91a-400b-b175-ebeec29128f6" />
+      <TestMethod codeBase="D:/CodingWorkspace/TestTrx001/TextTrx001.Test/bin/Debug/TextTrx001.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TextTrx001.Test.StudentTest, TextTrx001.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSayNo" />
+    </UnitTest>
+    <UnitTest name="TestSayYes" storage="texttrx001.test.dll" id="335f4f73-e00a-7acf-6d15-f2f8fbc89625">
+      <Execution id="f1810fbd-e2ea-42f6-98eb-cf354dd7267b" />
+      <TestMethod codeBase="D:/CodingWorkspace/TestTrx001/TextTrx001.Test/bin/Debug/TextTrx001.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TextTrx001.Test.StudentTest, TextTrx001.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSayYes" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="10766132-3116-8d33-a870-9f77e014c374" executionId="3bdac686-c91a-400b-b175-ebeec29128f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="335f4f73-e00a-7acf-6d15-f2f8fbc89625" executionId="f1810fbd-e2ea-42f6-98eb-cf354dd7267b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3bdac686-c91a-400b-b175-ebeec29128f6" testId="10766132-3116-8d33-a870-9f77e014c374" testName="TestSayNo" computerName="DST60530" duration="00:00:00.0456599" startTime="2018-05-25T17:47:47.9971267+08:00" endTime="2018-05-25T17:47:48.3545112+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bdac686-c91a-400b-b175-ebeec29128f6">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;1&gt;，实际为: &lt;-1&gt;。</Message>
+          <StackTrace>   在 TextTrx001.Test.StudentTest.TestSayNo() 位置 D:\CodingWorkspace\TestTrx001\TextTrx001.Test\StudentTest.cs:行号 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f1810fbd-e2ea-42f6-98eb-cf354dd7267b" testId="335f4f73-e00a-7acf-6d15-f2f8fbc89625" testName="TestSayYes" computerName="DST60530" duration="00:00:00.0002094" startTime="2018-05-25T17:47:48.3584932+08:00" endTime="2018-05-25T17:47:48.3604842+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1810fbd-e2ea-42f6-98eb-cf354dd7267b">
+    </UnitTestResult>
+  </Results>
+</TestRun>
